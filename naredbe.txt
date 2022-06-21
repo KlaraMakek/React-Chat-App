@@ -1,0 +1,45 @@
+
+1. Kreiranje react aplikacije:
+
+npx create-react-app superchat
+
+2. Nakon kreiranja:
+
+cd superchat
+npm start
+
+3. Instalacija firebasea (paziti da se nalazimo unutar react projekta):
+
+npm install firebase react-firebase-hooks
+
+4. Kopirati App.js i App.css
+
+5. Kreiranje aplikacije i baze na Firebase
+
+    - ulogirati se
+    - kreirati novi projekt
+    - dodati postavke u App.js !!!
+    - dodati app u projekt
+    - dodati google autentifikaciju
+    - kreirati Bazu!
+    - postaviti pravilo na true
+    - kreirati kolekciju messages -> auto ID -> text i upisati neku probnu poruku
+
+6. Pokrenuti aplikaciju
+
+npm start
+
+
+Objava aplikacije na Firebaseu:
+
+1. Trebamo izgraditi aplikaciju za objavu
+
+yarn run build
+
+2. Login u Firebase
+
+npm install -g firebase-tools (samo ako prvi puta radimo)
+
+firebase login
+
+firebase init
